@@ -1,3 +1,4 @@
+import { FiSearch } from 'react-icons/fi';
 
 function App() {
   return (
