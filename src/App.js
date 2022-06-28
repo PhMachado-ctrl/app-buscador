@@ -1,4 +1,5 @@
 import { FiSearch } from 'react-icons/fi';
+import './styles.css';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
 
         <span>Rua Teste algum</span>
         <span>Complemento: Algum complemento</span>
+        <span>Vila Rosa</span>
+        <span>Campo Grande - MS</span>
       </main>
     </div>
     
