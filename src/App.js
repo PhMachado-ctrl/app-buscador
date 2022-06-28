@@ -9,6 +9,10 @@ function App() {
           type="text"
           placeholder="Digite seu cep..."
         />
+
+        <button className="buttonSearch">
+          Procurar
+        </button>
       </div>
     </div>
     
