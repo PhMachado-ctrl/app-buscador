@@ -5,7 +5,11 @@ import './styles.css';
 
 function App() {
 
-const [input, setInput] = useState('')
+  const [input, setInput] = useState('')
+
+  function handleSearch(){
+    alert("Clicou")
+  }
 
   return (
     <div className="container">
@@ -16,9 +20,10 @@ const [input, setInput] = useState('')
           type="text"
           placeholder="Digite seu cep..."
           value={input}
+          onChange={(e) => setInput(e.target.value)}
         />
 
-        <button className="buttonSearch">
+        <button className="buttonSearch" onClick={handleSearch}>
           <FiSearch size={25} color="#FFF"/>
         </button>
       </div>
