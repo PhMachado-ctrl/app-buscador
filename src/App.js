@@ -8,7 +8,7 @@ function App() {
   const [input, setInput] = useState('')
 
   function handleSearch(){
-    alert("Clicou")
+    alert("Valor do Input: " + input )
   }
 
   return (
