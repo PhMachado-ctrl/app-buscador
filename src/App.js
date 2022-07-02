@@ -44,7 +44,8 @@ function App() {
         </button>
       </div>
 
-      <main className='main'>
+      {Object.keys(cep).lenght > 0 && (
+        <main className='main'>
         <h2>CEP: {cep.cep}</h2>
 
         <span>{cep.logradoura}</span>
@@ -52,6 +53,9 @@ function App() {
         <span>{cep.bairro}</span>
         <span>{cep.localidade} - {cep.uf}</span>
       </main>
+        
+      )}
+      
     </div>
     
   );
